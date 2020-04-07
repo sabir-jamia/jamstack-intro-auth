@@ -5,6 +5,7 @@
    "main": "gatsby-config.js",
    "scripts": {
       "develop": "gatsby develop",
+      "build": "gatsby build",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
    "keywords": [],
