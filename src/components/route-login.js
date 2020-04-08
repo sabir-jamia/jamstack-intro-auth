@@ -3,7 +3,7 @@ import { useIdentityContext } from 'react-netlify-identity';
 import { navigate } from '@reach/router';
 
 const RouteLogin = ({ showModal }) => {
-   const { identity } = useIdentityContext();
+   const identity = useIdentityContext();
 
    if (identity?.isLoggedIn) {
       navigate('/dashboard/secret', { replace: true });
